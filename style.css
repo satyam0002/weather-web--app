@@ -13,23 +13,28 @@ body {
     padding: 2em;
     background-color: #000000d0;
     border-radius: 10px;
-    width: 30%;
+    width: 75vw;
     color: white;
     text-align: center;
+    position: relative;
     
     
 }
 .search{
     display: flex;
+    padding: 0rem;
+    flex-direction: row;
     justify-content: center;
+    
 
 }
 button{
-    border-radius: 50%;
+    border-radius: 80%;
     height: 2em;
     margin: 0.5em;
     background-color: gray;
     border: none;
+    display: flex;
 
 }
 button:hover{
@@ -43,7 +48,6 @@ button:hover{
     background-color: #8080802b;
     color: white;
     font-size: 1.5em;
-    margin: 0px;
 }
 .weather.loading{
     visibility: hidden;
